@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloWeb {
     @RequestMapping(value = "/")
     public String print(ModelMap model) {
-        model.addAttribute("message", "Hello Spring MVC Framework!");
+        model.addAttribute("message", "This is my first springMVC app!");
         return  "hello";
     }
 }
